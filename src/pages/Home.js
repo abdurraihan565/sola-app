@@ -31,6 +31,12 @@ function Home() {
   useEffect(() => {}, [searchText]);
   return (
     <section>
+      <div>
+        <script
+          type="text/javascript"
+          src="//pl21238326.toprevenuegate.com/91/7e/af/917eaf9aec2448c11e71406cf99d5129.js"
+        ></script>
+      </div>
       <div className="search_containner">
         <div className="search_containner_des">
           <h1>
