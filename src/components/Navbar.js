@@ -14,7 +14,7 @@ function Navbar() {
       </span>
       <div className="header_nav">
         <Link className="header_link">sign-in</Link>
-        <Link className="header_link ">sign-in</Link>
+        <Link className="header_link ">sign-up</Link>
       </div>
     </div>
   );
