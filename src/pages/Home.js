@@ -29,6 +29,7 @@ function Home() {
   };
 
   useEffect(() => {}, [searchText]);
+
   return (
     <section>
       <div className="search_containner">
