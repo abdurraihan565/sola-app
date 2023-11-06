@@ -70,16 +70,13 @@ function Home() {
             <div key={id} className="fitness_products">
               <img src={image} alt="gif" />
               <div className="fitness_btn">
-                <button>Add now</button>
-
+                <h6>{name}</h6>
                 <Link
                   to={`/fitness-datails/${slug}`}
                   state={{ id, name, image, step1, step2, step3 }}
                 >
                   <button>Read More</button>
                 </Link>
-
-                <h6>{name}</h6>
               </div>
             </div>
           );
@@ -93,16 +90,13 @@ function Home() {
             <div key={id} className="fitness_products">
               <img src={image} alt="gif" />
               <div className="fitness_btn">
-                <button>Add now</button>
-
+                <h6>{name}</h6>
                 <Link
                   to={`/fitness-datails/${slug}`}
                   state={{ id, name, image, step1, step2, step3 }}
                 >
                   <button>Read More</button>
                 </Link>
-
-                <h6>{name}</h6>
               </div>
             </div>
           );

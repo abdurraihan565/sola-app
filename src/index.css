@@ -1,5 +1,5 @@
 body {
-  background-color: #eeeeee;
+  background-color: rgba(227, 231, 225, 0.855);
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -139,19 +139,20 @@ code {
 
 .fitness_btn button {
   height: 40px;
-  width: 150px;
+  width: 350px;
   border: none;
   padding: 10px;
-  background-color: rgb(165, 165, 212);
+  background-color: rgb(250, 84, 84);
   border-radius: 20px;
   margin-top: 25px;
-  margin-left: 4px;
+  margin-left: 10px;
   cursor: pointer;
 }
 .fitness_btn h6 {
   margin-left: 10px;
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 10px;
+  color: #888888;
 }
 .fitness_btn button:hover {
   background-color: rgb(148, 148, 216);
@@ -197,341 +198,130 @@ code {
 }
 
 /* mobile screen */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 412px) {
   .header-containner {
     display: block;
   }
   .header-containner h1 {
-    font-size: 10px;
-  }
-  .header-containner span i {
-    display: none;
-    /*font-size: 8px;
-    padding: 5px 10px;
-    margin-left: 0px;*/
-  }
-  .header_nav {
-    margin-left: 230px;
-    padding: 2px;
-  }
-  .header_link {
-    display: none;
-  }
-  .search_containner_des {
-    margin-top: 0px;
-  }
-  .search_containner_des h1 {
-    font-size: 20px;
-  }
-  .search_containner_des h2 {
-    font-size: 15px;
-  }
-  .search_containner_des p {
-    font-size: 10px;
-    width: 320px;
-  }
-  .btn {
-    width: 300px;
-    padding: 10px;
-  }
-  .btn input {
-    width: 250px;
-  }
-  .btn i {
-    font-size: 15px;
-    margin-top: 5px;
-  }
-  .search_containner {
-    display: block;
-  }
-  .hero_image {
-    display: none;
-  }
-  .fitness_containner {
-    display: block;
-    margin-left: 0px;
-    margin-top: 10px;
-  }
-  .result_title {
-    margin-top: 0px;
-  }
-  .result_title h1 {
-    font-size: 15px;
-    padding: 10px;
-  }
-  .fitness_products {
-    border-bottom: none;
-  }
-  .fitness_products img {
-    width: 300px;
-    margin-left: 30px;
-    margin-top: 20px;
-  }
-  .fitness_btn button {
-    height: 30px;
-    width: 100px;
-    margin-left: 30px;
-  }
-  .fitness_btn h6 {
-    margin-left: 30px;
-  }
-  /*products datails */
-  .fitness_ctn {
-    display: block;
-  }
-  .fitness_ctn img {
-    width: 300px;
-    height: 400px;
-    border: 2px solid rgb(116, 116, 228);
-  }
-  .fitness_dsc {
-    border-left: none;
-    margin-left: 0px;
-  }
-  .fitness_dsc h1 {
-    font-size: 13px;
-    margin-left: 0px;
-  }
-  .fitness_dsc p {
-    margin-left: 0px;
-    padding: 0px;
-    font-size: 11px;
-  }
-  .fitness_dsc p span {
     font-size: 12px;
-  }
-  .fitness_ctn_h {
-    font-size: 13px;
-    margin-left: 30px;
-  }
-}
-/* iphone XR+ */
-@media only screen and (max-width: 414px) {
-  .header-containner {
-    width: 414px;
-  }
-  .header-containner {
-    display: block;
-  }
-  .header-containner h1 {
-    font-size: 10px;
     border-bottom: none;
   }
   .header-containner span i {
-    display: none;
-    /*font-size: 8px;
+    display: block;
+    font-size: 5px;
     padding: 5px 10px;
-    margin-left: 0px;*/
+    margin-left: 0px;
   }
   .header_nav {
-    margin-left: 230px;
-    padding: 2px;
-  }
-  .header_link {
-    display: none;
-  }
-  .search_containner_des {
-    margin-top: 0px;
-  }
-  .search_containner_des h1 {
-    font-size: 20px;
-  }
-  .search_containner_des h2 {
-    font-size: 15px;
-  }
-  .search_containner_des p {
-    font-size: 10px;
-    width: 320px;
-  }
-  .btn {
-    width: 300px;
-    padding: 10px;
-  }
-  .btn input {
-    width: 250px;
-  }
-  .btn i {
-    font-size: 15px;
-    margin-top: 5px;
-  }
-  .search_containner {
-    display: block;
-  }
-  .hero_image {
-    display: none;
-  }
-  .fitness_containner {
-    display: block;
-    margin-left: 0px;
-    margin-top: 10px;
-  }
-  .result_title {
-    margin-top: 0px;
-  }
-  .result_title h1 {
-    font-size: 15px;
-    padding: 10px;
-  }
-  .fitness_products {
-    border-bottom: none;
-  }
-  .fitness_products img {
-    width: 300px;
-    margin-left: 30px;
-    margin-top: 20px;
-  }
-  .fitness_btn button {
-    height: 30px;
-    width: 100px;
-    margin-left: 30px;
-  }
-  .fitness_btn h6 {
-    margin-left: 30px;
-  }
-  /*products datails */
-  .fitness_ctn {
-    display: block;
-  }
-  .fitness_ctn img {
-    width: 300px;
-    height: 400px;
-    border: 2px solid rgb(116, 116, 228);
-  }
-  .fitness_dsc {
-    border-left: none;
-    margin-left: 0px;
-  }
-  .fitness_dsc h1 {
-    font-size: 13px;
-    margin-left: 0px;
-  }
-  .fitness_dsc p {
-    margin-left: 0px;
-    padding: 0px;
-    font-size: 11px;
-  }
-  .fitness_dsc p span {
-    font-size: 12px;
-  }
-  .fitness_ctn_h {
-    font-size: 13px;
-    margin-left: 30px;
-  }
-}
-/* iped Air*/
-@media only screen and (max-width: 820px) {
-  .header-containner {
-    width: 820px;
-  }
-  .header-containner {
-    display: block;
-  }
-  .header-containner h1 {
-    font-size: 20px;
-    border-bottom: none;
-  }
-  .header-containner span i {
-    display: none;
-    /*font-size: 8px;
-    padding: 5px 10px;
-    margin-left: 0px;*/
-  }
-  .header_nav {
-    margin-left: 230px;
-    padding: 2px;
-  }
-  .header_link {
-    display: none;
-  }
-  .search_containner_des {
-    margin-top: 0px;
-  }
-  .search_containner_des h1 {
-    font-size: 30px;
-  }
-  .search_containner_des h2 {
-    font-size: 20px;
-  }
-  .search_containner_des p {
-    width: 350px;
-  }
-  .btn {
-    width: 400px;
-    padding: 10px;
-  }
-  .btn input {
-    width: 350px;
-  }
-  .btn i {
-    font-size: 15px;
-    margin-top: 5px;
-  }
-  .search_containner {
-    display: block;
-  }
-  .hero_image {
-    display: none;
-  }
-  .fitness_containner {
-    display: block;
-    margin-left: 0px;
-    margin-top: 10px;
-  }
-  .result_title {
-    margin-top: 0px;
-  }
-  .result_title h1 {
-    font-size: 15px;
-    padding: 10px;
-    margin-left: 20px;
-  }
-  .fitness_products {
-    border-bottom: none;
+    margin-left: 120px;
+    padding: 2px 20px;
   }
 
+  .header_link {
+    padding: 5px;
+    height: 15px;
+    width: 40px;
+  }
+  .search_containner_des {
+    margin-top: 0px;
+  }
+  .search_containner_des h1 {
+    font-size: 16px;
+  }
+  .search_containner_des h2 {
+    font-size: 12px;
+  }
+  .search_containner_des p {
+    font-size: 8px;
+    width: 250px;
+  }
+  .btn {
+    width: 200px;
+    padding: 10px;
+  }
+  .btn input {
+    width: 150px;
+  }
+  .btn i {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .search_containner {
+    display: block;
+  }
+  .hero_image {
+    display: none;
+  }
+  .fitness_containner {
+    display: block;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .result_title {
+    margin-top: 0px;
+  }
+  .result_title h1 {
+    font-size: 15px;
+    padding: 10px;
+  }
+  .fitness_products {
+    border-bottom: none;
+  }
   .fitness_products img {
-    width: 400px;
-    margin-left: 50px;
+    width: 250px;
+    margin-left: 35px;
+    height: 400px;
     margin-top: 20px;
   }
   .fitness_btn button {
-    height: 40px;
-    width: 100px;
-    padding: 10px;
-    margin-left: 100px;
+    height: 30px;
+    width: 200px;
+    font-size: 10px;
+    margin-left: 40px;
   }
   .fitness_btn h6 {
-    margin-left: 50px;
-    font-size: 15px;
+    padding: 10px;
+    font-size: 12px;
   }
   /*products datails */
   .fitness_ctn {
     display: block;
   }
   .fitness_ctn img {
-    width: 400px;
+    width: 250px;
     height: 400px;
     border: 2px solid rgb(116, 116, 228);
-    margin-left: 10px;
   }
   .fitness_dsc {
     border-left: none;
     margin-left: 0px;
   }
   .fitness_dsc h1 {
-    font-size: 13px;
+    font-size: 12px;
     margin-left: 0px;
   }
   .fitness_dsc p {
     margin-left: 0px;
     padding: 0px;
-    font-size: 11px;
+    font-size: 10px;
+    width: 280px;
   }
   .fitness_dsc p span {
-    font-size: 12px;
+    font-size: 11px;
   }
   .fitness_ctn_h {
-    font-size: 13px;
+    font-size: 12px;
     margin-left: 30px;
+  }
+  /*fotter*/
+  .fotter_containner {
+    text-align: left;
+    margin-left: 100px;
+  }
+  .fotter_containner h1 {
+    font-size: 13px;
+  }
+  .fotter_containner p {
+    font-size: 10px;
   }
 }

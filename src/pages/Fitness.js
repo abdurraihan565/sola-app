@@ -12,7 +12,7 @@ function Fitness() {
       <div className="fitness_ctn">
         <img src={location.state.image} alt="" />
         <div className="fitness_dsc">
-          <h1>FITNESS DATAILS</h1>
+          <h1>{location.state.name}</h1>
           <p>
             <span>STEP 1: </span>
             {location.state.step1}
@@ -36,16 +36,13 @@ function Fitness() {
               <div key={id} className="fitness_products">
                 <img src={image} alt="gif" />
                 <div className="fitness_btn">
-                  <button>Add now</button>
-
+                  <h6>{name}</h6>
                   <Link
                     to={`/fitness-datails/${slug}`}
                     state={{ id, name, image, step1, step2, step3 }}
                   >
                     <button>Read More</button>
                   </Link>
-
-                  <h6>Fitness gym</h6>
                 </div>
               </div>
             );
